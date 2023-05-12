@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgray;
+}
+header, main,footer{
+    width: 62.5rem;
+    margin: 3rem auto;
+    
+}
+/* nav e  configurações basicas */
+header, main, section{
+    border-bottom: cyan solid 2px;
+}
+.banner{
+
+    background-image: url(images/banner.png);
+    
+
+}
+
+.logo, .position {
+    text-align: center;
+}
+
+h1,h2{
+    color: cyan;
+    
+}
+p {
+    
+    font-size: 1.2rem;
+}
+.logo{
+    margin: 3rem;
+}
+
+h1{
+    
+    font-weight: bold;
+    margin: 1rem;
+}
+h1 , h2{
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem ;
+}
+button{
+    margin: 3rem auto;
+    display: block;
+    padding: 0.8rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: cyan;
+    border: cyan solid 2px;
+    
+    background-color: transparent;
+} 
+
+/* conteúdo  principal */
+
+
+#course-content{
+    text-align: center;
+}
+
+.module{
+
+    background-color: darkslategray;
+    border: cyan solid 2px;
+    border-radius: 2rem;
+    width: 34rem;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    
+
+}
+
+span{
+    color: cyan;
+}
+
+
+#transform-world{
+
+    background-image: url(images/woman-code.png);
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+    height: 30rem;
+    
+    
+    
+}
+
+#transform-world p{
+
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 2px 3px #558ABB;
+    width: 11rem;
+    position: relative;
+    top:10rem ;
+    left: 7rem;
+}
+
+
+
+#professional-challenges{
+
+    width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+}
+img{
+    margin: 2rem;
+}
+
+#professional-challenges p{
+
+    margin-bottom: 2rem;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+
+    text-decoration: none;
+    color: cyan;
+}
